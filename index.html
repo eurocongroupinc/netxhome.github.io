@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | NETX INTERNET PRIVATE LIMITED</title>
+    <meta name="description" content="Next-Generation Digital Connectivity. Reliable, High-Speed Internet, Enterprise Network Solutions, and SD-WAN across India.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: { light: '#2563eb', DEFAULT: '#1e3a8a', dark: '#0f172a' }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-sans text-slate-800 bg-slate-50 antialiased overflow-x-hidden selection:bg-brand selection:text-white flex flex-col min-h-screen">
+
+    <div class="bg-brand-dark text-slate-300 text-xs py-2 hidden lg:block border-b border-white/10 relative z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+            <div class="flex space-x-6">
+                <span><i class="fas fa-headset text-blue-500 mr-2"></i>  <a href="contact.html" class="hover:text-white transition">24/7 Support:</a></span>
+                <span><i class="fas fa-envelope text-blue-500 mr-2"></i> <a href="mailto:info@netxhome.com" class="hover:text-white transition">info@netxhome.com</a></span>
+            </div>
+            <div class="flex space-x-4 items-center">
+                <a href="customer-login.html" class="hover:text-white transition flex items-center font-bold text-blue-400"><i class="fas fa-user-circle mr-1.5"></i> Consumer Portal</a>
+                <span class="text-slate-600">|</span>
+                <a href="employee-login.html" class="hover:text-white transition flex items-center"><i class="fas fa-id-badge mr-1.5"></i> Employee SSO</a>
+            </div>
+        </div>
+    </div>
+
+    <nav id="navbar" class="sticky top-0 w-full z-40 transition-all duration-300 py-4 bg-brand-dark/95 backdrop-blur-md text-white border-b border-white/10 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="flex items-center group">
+                    <img src="assets/logo.png" alt="NETX INTERNET" class="h-12 bg-white rounded p-1 object-contain group-hover:scale-105 transition duration-300" onerror="this.src='https://i.postimg.cc/q7dqCYCD/Chat-GPT-Image-Mar-1-2026-12-38-17-PMJH-LK.png'">
+                </a>
+                
+                <div class="hidden xl:flex space-x-7 items-center font-medium text-sm tracking-wide">
+                    <a href="index.html" class="hover:text-blue-400 transition">Home</a>
+                    <a href="about.html" class="hover:text-blue-400 transition">Company</a>
+                    <a href="enterprise.html" class="text-yellow-400 hover:text-yellow-300 transition font-bold"><i class="fas fa-building mr-1"></i> Enterprise</a>
+                    <a href="services.html" class="hover:text-blue-400 transition">Services</a>
+                    <a href="infrastructure.html" class="hover:text-blue-400 transition">Network</a>
+                    <a href="plans.html" class="hover:text-blue-400 transition">Plans</a>
+                    <a href="offices.html" class="hover:text-blue-400 transition">Locations</a>
+                    <a href="support.html" class="hover:text-blue-400 transition">Support</a>
+                    <a href="contact.html" class="bg-blue-600 hover:bg-blue-500 px-6 py-2.5 rounded-full transition shadow-lg shadow-blue-500/30 font-bold">Get Quote</a>
+                </div>
+                
+                <div class="xl:hidden flex items-center space-x-4">
+                    <a href="customer-login.html" class="text-blue-400 hover:text-white"><i class="fas fa-user-circle text-2xl"></i></a>
+                    <button id="mobile-menu-btn" class="text-white hover:text-blue-400 focus:outline-none text-2xl">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="mobile-menu" class="hidden xl:hidden bg-brand-dark pb-6 px-4 absolute w-full left-0 top-full border-b border-white/10 shadow-2xl overflow-y-auto max-h-[80vh]">
+            <a href="index.html" class="block py-3 text-white border-b border-white/5 hover:bg-white/5 px-2 rounded">Home</a>
+            <a href="about.html" class="block py-3 text-white border-b border-white/5 hover:bg-white/5 px-2 rounded">Company</a>
+            <a href="enterprise.html" class="block py-3 text-yellow-400 font-bold border-b border-white/5 hover:bg-white/5 px-2 rounded">Enterprise Solutions</a>
+            <a href="services.html" class="block py-3 text-white border-b border-white/5 hover:bg-white/5 px-2 rounded">Services</a>
+            <a href="infrastructure.html" class="block py-3 text-white border-b border-white/5 hover:bg-white/5 px-2 rounded">Network Infrastructure</a>
+            <a href="plans.html" class="block py-3 text-white border-b border-white/5 hover:bg-white/5 px-2 rounded">Pricing Plans</a>
+            <a href="offices.html" class="block py-3 text-white border-b border-white/5 hover:bg-white/5 px-2 rounded">Office Locations</a>
+            <a href="support.html" class="block py-3 text-white border-b border-white/5 hover:bg-white/5 px-2 rounded">Support & FAQ</a>
+            <div class="grid grid-cols-2 gap-4 mt-4">
+                <a href="employee-login.html" class="block py-3 bg-slate-800 text-white text-center rounded-lg font-bold hover:bg-slate-700"><i class="fas fa-lock mr-2"></i>Staff</a>
+                <a href="contact.html" class="block py-3 bg-blue-600 text-white text-center rounded-lg font-bold hover:bg-blue-500">Contact Sales</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow">
+        
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-brand-dark overflow-hidden min-h-[90vh] flex items-center">
+        <div class="absolute inset-0 opacity-30 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072')] bg-cover bg-center"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-brand-dark via-brand-dark/90 to-transparent"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col lg:flex-row items-center">
+            <div class="lg:w-2/3 text-center lg:text-left reveal">
+                <div class="inline-flex items-center py-1.5 px-4 rounded-full bg-blue-900/40 border border-blue-500/30 text-blue-300 text-xs font-bold mb-8 tracking-widest uppercase shadow-lg backdrop-blur-md">
+                    <span class="w-2 h-2 rounded-full bg-green-400 mr-2 animate-pulse"></span> Network Status: All Systems Operational
+                </div>
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6 tracking-tight">
+                    Next-Generation <br>Connectivity <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-300 to-white">Without Limits</span>
+                </h1>
+                <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto lg:mx-0 font-light leading-relaxed">
+                    Deploying carrier-class optical fiber and advanced SD-WAN solutions across North India. Empowering businesses with 99.99% uptime and lightning-fast residential broadband.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="enterprise.html" class="px-8 py-4 bg-brand-light hover:bg-blue-500 text-white font-bold rounded-lg shadow-xl transition transform hover:-translate-y-1 flex justify-center items-center">
+                        Explore Enterprise IT <i class="fas fa-arrow-right ml-3"></i>
+                    </a>
+                    <a href="plans.html" class="px-8 py-4 bg-white/5 border border-white/20 backdrop-blur-md text-white font-bold rounded-lg hover:bg-white/10 transition transform hover:-translate-y-1 flex justify-center items-center">
+                        View Home Plans
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-white border-b border-slate-200 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-sm font-bold text-slate-400 tracking-widest uppercase mb-6">Trusted by leading enterprises & thousands of homes</p>
+            <div class="flex flex-wrap justify-center gap-10 md:gap-20 opacity-40 grayscale">
+                <i class="fab fa-aws text-5xl hover:grayscale-0 hover:opacity-100 transition duration-300"></i>
+                <i class="fab fa-microsoft text-5xl hover:grayscale-0 hover:opacity-100 transition duration-300"></i>
+                <i class="fab fa-google text-5xl hover:grayscale-0 hover:opacity-100 transition duration-300"></i>
+                <i class="fab fa-cisco text-5xl hover:grayscale-0 hover:opacity-100 transition duration-300"></i>
+                <i class="fas fa-building text-5xl hover:grayscale-0 hover:opacity-100 transition duration-300"></i>
+            </div>
+        </div>
+    </div>
+
+    <section class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-4">Architected for Performance</h2>
+                <p class="text-slate-600 text-lg">We don't just provide internet; we engineer robust network ecosystems.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <a href="infrastructure.html" class="block bg-white p-10 rounded-2xl shadow-sm border border-slate-100 hover:shadow-2xl transition duration-300 reveal group">
+                    <div class="w-16 h-16 bg-blue-50 text-brand rounded-xl flex items-center justify-center text-3xl mb-6 shadow-inner group-hover:bg-brand group-hover:text-white transition"><i class="fas fa-project-diagram"></i></div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand transition">100% Optical Fiber Ring</h3>
+                    <p class="text-slate-600 mb-4">Our core infrastructure utilizes self-healing ring topology, ensuring automatic failover and zero packet loss.</p>
+                </a>
+                <a href="enterprise.html" class="block bg-white p-10 rounded-2xl shadow-sm border border-slate-100 hover:shadow-2xl transition duration-300 reveal group" style="transition-delay: 100ms;">
+                    <div class="w-16 h-16 bg-blue-50 text-brand rounded-xl flex items-center justify-center text-3xl mb-6 shadow-inner group-hover:bg-brand group-hover:text-white transition"><i class="fas fa-shield-alt"></i></div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand transition">Enterprise Security SLA</h3>
+                    <p class="text-slate-600 mb-4">Built-in DDoS mitigation, secure BGP routing, and strictly monitored NOC facilities guarantee protection.</p>
+                </a>
+                <a href="plans.html" class="block bg-white p-10 rounded-2xl shadow-sm border border-slate-100 hover:shadow-2xl transition duration-300 reveal group" style="transition-delay: 200ms;">
+                    <div class="w-16 h-16 bg-blue-50 text-brand rounded-xl flex items-center justify-center text-3xl mb-6 shadow-inner group-hover:bg-brand group-hover:text-white transition"><i class="fas fa-tachometer-alt"></i></div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand transition">Symmetrical Gigabit</h3>
+                    <p class="text-slate-600 mb-4">True 1:1 contention ratios for enterprise lines, ensuring upload speed perfectly matches download speed.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 relative bg-brand">
+        <div class="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1551721434-8b94ddff0e6d?q=80&w=2000')] bg-cover bg-center mix-blend-overlay"></div>
+        <div class="max-w-4xl mx-auto px-4 text-center relative z-10 reveal">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-6">Ready to transform your network?</h2>
+            <p class="text-xl text-blue-100 mb-10">Speak with our network architects today for a free feasibility study and custom quote.</p>
+            <a href="contact.html" class="px-10 py-4 bg-white text-brand font-extrabold rounded-lg shadow-2xl hover:bg-slate-100 hover:scale-105 transition inline-flex items-center text-lg">
+                Schedule a Consultation <i class="fas fa-calendar-alt ml-3"></i>
+            </a>
+        </div>
+    </section>
+
+    </main>
+
+    <footer class="bg-slate-950 text-slate-400 pt-20 pb-10 border-t border-slate-800 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-16">
+                <div class="lg:col-span-2 pr-8">
+                    <a href="index.html"><img src="assets/logo.png" alt="NETX Logo" class="h-12 bg-white rounded p-1 object-contain mb-6 hover:opacity-90 transition" onerror="this.src='https://i.postimg.cc/q7dqCYCD/Chat-GPT-Image-Mar-1-2026-12-38-17-PMJH-LK.png'"></a>
+                    <p class="text-sm leading-relaxed mb-6">NETX INTERNET PRIVATE LIMITED is an industry-leading ISP delivering carrier-grade optical fiber connectivity, enterprise networking, and managed IT solutions across North India.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-brand hover:text-white hover:border-brand transition"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-brand hover:text-white hover:border-brand transition"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-brand hover:text-white hover:border-brand transition"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg">Solutions</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="enterprise.html" class="hover:text-blue-400 transition flex items-center"><i class="fas fa-chevron-right text-[10px] mr-2 text-blue-600"></i>Dedicated Internet</a></li>
+                        <li><a href="enterprise.html" class="hover:text-blue-400 transition flex items-center"><i class="fas fa-chevron-right text-[10px] mr-2 text-blue-600"></i>SD-WAN & MPLS</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition flex items-center"><i class="fas fa-chevron-right text-[10px] mr-2 text-blue-600"></i>Residential FTTH</a></li>
+                        <li><a href="plans.html" class="hover:text-blue-400 transition flex items-center"><i class="fas fa-chevron-right text-[10px] mr-2 text-blue-600"></i>Pricing Plans</a></li>
+                        <li><a href="infrastructure.html" class="hover:text-blue-400 transition flex items-center"><i class="fas fa-chevron-right text-[10px] mr-2 text-blue-600"></i>Dark Fiber Leasing</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg">Company Links</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="about.html" class="hover:text-blue-400 transition flex items-center"><i class="fas fa-chevron-right text-[10px] mr-2 text-blue-600"></i>About NETX</a></li>
+                        <li><a href="offices.html" class="hover:text-blue-400 transition flex items-center"><i class="fas fa-chevron-right text-[10px] mr-2 text-blue-600"></i>Our Locations</a></li>
+                        <li><a href="support.html" class="hover:text-blue-400 transition flex items-center"><i class="fas fa-chevron-right text-[10px] mr-2 text-blue-600"></i>Support Center</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-400 transition flex items-center"><i class="fas fa-chevron-right text-[10px] mr-2 text-blue-600"></i>Contact Sales</a></li>
+                        <li class="pt-3 mt-3 border-t border-slate-800">
+                            <span class="block text-xs text-slate-500 mb-1">Corporate Identity Number</span>
+                            <strong class="text-blue-500 font-mono tracking-widest">U61201PB2023PTC059699</strong>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg">Portals</h4>
+                    <ul class="space-y-4 text-sm">
+                        <li>
+                            <a href="customer-login.html" class="group flex items-center bg-slate-900 border border-slate-700 p-3 rounded-lg hover:border-blue-500 transition">
+                                <i class="fas fa-user-circle text-2xl text-slate-400 group-hover:text-blue-400 mr-3 transition"></i>
+                                <div><p class="text-white font-bold">Consumer Login</p><p class="text-[10px] text-slate-500">Pay bills, view usage</p></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="employee-login.html" class="group flex items-center bg-slate-900 border border-slate-700 p-3 rounded-lg hover:border-yellow-500 transition">
+                                <i class="fas fa-shield-alt text-2xl text-slate-400 group-hover:text-yellow-400 mr-3 transition"></i>
+                                <div><p class="text-white font-bold">Employee SSO</p><p class="text-[10px] text-slate-500">Secure staff access</p></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-slate-800 pt-8 text-xs text-slate-500 flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2026 NETX INTERNET PRIVATE LIMITED. All Rights Reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="about.html" class="hover:text-slate-300 transition">Privacy Policy</a>
+                    <a href="about.html" class="hover:text-slate-300 transition">Terms of Service</a>
+                    <a href="support.html" class="hover:text-slate-300 transition">SLA Agreement</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/910000000000" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-[0_0_20px_rgba(34,197,94,0.4)] hover:bg-green-600 hover:scale-110 transition-transform duration-300 z-50">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
