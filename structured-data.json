@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "NETX INTERNET PRIVATE LIMITED",
+  "url": "https://netxhome.com",
+  "logo": "https://netxhome.com/logo.png",
+  "description": "Telecommunications company providing high-speed fiber internet and enterprise connectivity solutions in Punjab.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Satya Complex, 2nd Floor, Cabin No. 2-7, Adarsh Nagar",
+    "addressLocality": "Derabassi",
+    "addressRegion": "Punjab",
+    "postalCode": "140507",
+    "addressCountry": "IN"
+  }
+}

@@ -1,0 +1,10 @@
+GOOGLE SEARCH CONSOLE SETUP GUIDE
+
+1. Visit: https://search.google.com/search-console
+2. Click "Add Property"
+3. Enter: https://netxhome.com
+4. Verify ownership via DNS or HTML file
+5. Go to "Sitemaps"
+6. Submit: sitemap.xml
+7. Monitor indexing status in Coverage report
+8. Fix any crawl errors shown
